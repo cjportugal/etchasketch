@@ -1,0 +1,24 @@
+h1 {
+    color:aqua;
+}
+
+.grid-container {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.grid-item {
+    /* background-color: rgb(85, 85, 85); */
+}
+
+.new-grid-item {
+    /* background-color: rgb(200, 85, 85); */
+}
+
+.hover {
+    background-color: black;
+}
